@@ -1,8 +1,6 @@
 {
   "language": "AR",
   "theme": "digital",
-  "background": "pics/background-game.png",
-
   "themeGraphics": {
     "gameTitle": "gameTitle.png",
     "startFrame": "startFrame.jpg",

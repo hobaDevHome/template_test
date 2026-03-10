@@ -27,68 +27,68 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_43 = function() {
+(lib.CachedBmp_57 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_42 = function() {
+(lib.CachedBmp_56 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_41 = function() {
+(lib.CachedBmp_55 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_40 = function() {
-	this.initialize(img.CachedBmp_40);
+(lib.CachedBmp_54 = function() {
+	this.initialize(img.CachedBmp_54);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3600,2400);
 
 
-(lib.CachedBmp_39 = function() {
-	this.initialize(img.CachedBmp_39);
+(lib.CachedBmp_53 = function() {
+	this.initialize(img.CachedBmp_53);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3592,2388);
 
 
-(lib.CachedBmp_38 = function() {
+(lib.CachedBmp_52 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_47 = function() {
+(lib.CachedBmp_63 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_36 = function() {
+(lib.CachedBmp_50 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_35 = function() {
+(lib.CachedBmp_49 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_46 = function() {
+(lib.CachedBmp_62 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
@@ -346,18 +346,14 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("rgba(51,51,51,0)").p("EiM2hfTMEZtAAAMAAAC+nMkZtAAAg");
-	this.shape.setTransform(901.5,610.025);
+	this.shape.graphics.f("rgba(51,255,204,0.008)").s().p("EiMnBdwMAAAi7fMEZPAAAMAAAC7fg");
+	this.shape.setTransform(900,600);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(153,0,51,0)").s().p("EiM2BfUMAAAi+nMEZtAAAMAAAC+ng");
-	this.shape_1.setTransform(901.5,610.025);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol36, new cjs.Rectangle(-1,-0.9,1805,1221.9), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol36, new cjs.Rectangle(0,0,1800,1200), null);
 
 
 (lib.Symbol33 = function(mode,startPosition,loop,reversed) {
@@ -373,18 +369,14 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFDE17").p("ECLRhdtICBAAMAAAC7bMkajAAAIAAgo");
-	this.shape.setTransform(908.675,604.275);
+	this.shape.graphics.f("rgba(0,0,0,0.004)").s().p("EiMnBdwMAAAi7fMEZPAAAMAAAC7fg");
+	this.shape.setTransform(900,600);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(0,0,0,0.004)").s().p("EiMnBdwMAAAi7fMEZPAAAIAAAsMAAAC6zMkYiAAAg");
-	this.shape_1.setTransform(900,600.0125);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol33, new cjs.Rectangle(0,0,1813.9,1205.1), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol33, new cjs.Rectangle(0,0,1800,1200), null);
 
 
 (lib.Symbol30 = function(mode,startPosition,loop,reversed) {
@@ -399,10 +391,10 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_40();
+	this.instance = new lib.CachedBmp_54();
 	this.instance.setTransform(0,0,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_39();
+	this.instance_1 = new lib.CachedBmp_53();
 	this.instance_1.setTransform(4,6.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -5881,10 +5873,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1));
 
 	// flash0_ai
-	this.instance = new lib.CachedBmp_35();
+	this.instance = new lib.CachedBmp_49();
 	this.instance.setTransform(0,0,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_36();
+	this.instance_1 = new lib.CachedBmp_50();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},1).wait(1));
@@ -6641,7 +6633,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_43();
+	this.instance = new lib.CachedBmp_57();
 	this.instance.setTransform(9.8,21.7,0.5,0.5);
 
 	this.instance_1 = new lib.Path_11_1();
@@ -6764,7 +6756,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_24.alpha = 0.3203;
 	this.instance_24.compositeOperation = "screen";
 
-	this.instance_25 = new lib.CachedBmp_42();
+	this.instance_25 = new lib.CachedBmp_56();
 	this.instance_25.setTransform(1.65,3.45,0.5,0.5);
 
 	this.instance_26 = new lib.Path_4_1();
@@ -6792,7 +6784,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_30.alpha = 0.7109;
 	this.instance_30.compositeOperation = "multiply";
 
-	this.instance_31 = new lib.CachedBmp_41();
+	this.instance_31 = new lib.CachedBmp_55();
 	this.instance_31.setTransform(1.4,2.35,0.5,0.5);
 
 	this.instance_32 = new lib.Rectangle_1();
@@ -7585,7 +7577,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol32, new cjs.Rectangle(0,0,1813.4,1204.6), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol32, new cjs.Rectangle(0,0,1800,1200), null);
 
 
 (lib.Symbol31 = function(mode,startPosition,loop,reversed) {
@@ -7690,7 +7682,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.alpha = 0.5586;
 	this.instance_4.compositeOperation = "screen";
 
-	this.instance_5 = new lib.CachedBmp_38();
+	this.instance_5 = new lib.CachedBmp_52();
 	this.instance_5.setTransform(0,1,0.5,0.5);
 
 	this.instance_6 = new lib.Path_6_4();
@@ -7703,7 +7695,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7.alpha = 0.8281;
 	this.instance_7.compositeOperation = "screen";
 
-	this.instance_8 = new lib.CachedBmp_47();
+	this.instance_8 = new lib.CachedBmp_63();
 	this.instance_8.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -7950,13 +7942,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.Symbol36();
-	this.instance.setTransform(901,613,1,1,0,0,0,900,610);
+	this.instance.setTransform(900,610,1,1,0,0,0,900,610);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol12, new cjs.Rectangle(0.5,2.6,1804,1220.9), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol12, new cjs.Rectangle(0,0,1800,1200), null);
 
 
 (lib.Symbol9 = function(mode,startPosition,loop,reversed) {
@@ -8656,7 +8648,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(40.55,49.5,0.9999,0.9999,0,0,0,6.8,5.2);
 	this.instance.alpha = 0.3984;
 
-	this.instance_1 = new lib.CachedBmp_46();
+	this.instance_1 = new lib.CachedBmp_62();
 	this.instance_1.setTransform(0,0,0.2065,0.2065);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -9483,14 +9475,226 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {game:1,result:2};
+	props.labels = {start:1,game:2,result:3};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,1,2];
+	this.actionFrames = [0,1,2,3];
 	// timeline functions:
 	this.frame_0 = function() {
+		// ============================
+		// STOP على الفريم الأول
+		// ============================
+		this.stop();
+		var _root = this;
+		
+		// ============================
+		// إنشاء الـ Preloader
+		// ============================
+		var preloaderDiv = document.createElement('div');
+		preloaderDiv.id = 'custom-preloader';
+		preloaderDiv.innerHTML = `
+		  <style>
+		    #custom-preloader {
+		      position: fixed;
+		      inset: 0;
+		      background: #0a0a0f;
+		      display: flex;
+		      flex-direction: column;
+		      align-items: center;
+		      justify-content: center;
+		      z-index: 9999;
+		      font-family: 'Courier New', monospace;
+		      transition: opacity 0.6s ease;
+		    }
+		    #custom-preloader::before {
+		      content: '';
+		      position: absolute;
+		      inset: 0;
+		      background-image:
+		        linear-gradient(rgba(0,255,180,0.04) 1px, transparent 1px),
+		        linear-gradient(90deg, rgba(0,255,180,0.04) 1px, transparent 1px);
+		      background-size: 40px 40px;
+		    }
+		    .pl-inner {
+		      position: relative;
+		      display: flex;
+		      flex-direction: column;
+		      align-items: center;
+		      gap: 28px;
+		      width: 340px;
+		    }
+		    .pl-icon {
+		      width: 64px; height: 64px;
+		      position: relative;
+		    }
+		    .pl-icon::before, .pl-icon::after {
+		      content: '';
+		      position: absolute;
+		      inset: 0;
+		      border: 2px solid transparent;
+		      border-radius: 50%;
+		    }
+		    .pl-icon::before {
+		      border-top-color: #00ffb4;
+		      border-right-color: #00ffb4;
+		      animation: pl-spin 1s linear infinite;
+		    }
+		    .pl-icon::after {
+		      border-bottom-color: rgba(0,255,180,0.3);
+		      border-left-color: rgba(0,255,180,0.3);
+		      animation: pl-spin 1.5s linear infinite reverse;
+		    }
+		    .pl-dot {
+		      position: absolute;
+		      inset: 18px;
+		      background: #00ffb4;
+		      border-radius: 50%;
+		      animation: pl-pulse 1s ease-in-out infinite;
+		    }
+		    @keyframes pl-spin { to { transform: rotate(360deg); } }
+		    @keyframes pl-pulse {
+		      0%,100% { transform: scale(1); opacity: 0.9; }
+		      50%      { transform: scale(0.7); opacity: 0.4; }
+		    }
+		    .pl-label {
+		      color: rgba(0,255,180,0.6);
+		      font-size: 11px;
+		      letter-spacing: 4px;
+		      text-transform: uppercase;
+		    }
+		    .pl-bar-wrapper { width: 100%; display: flex; flex-direction: column; gap: 10px; }
+		    .pl-bar-header  { display: flex; justify-content: space-between; align-items: center; }
+		    .pl-bar-title   { color: rgba(255,255,255,0.4); font-size: 10px; letter-spacing: 2px; }
+		    .pl-percent     { color: #00ffb4; font-size: 22px; font-weight: bold; }
+		    .pl-track {
+		      width: 100%; height: 4px;
+		      background: rgba(255,255,255,0.07);
+		      border-radius: 2px; overflow: hidden;
+		    }
+		    .pl-fill {
+		      height: 100%; width: 0%;
+		      background: linear-gradient(90deg, #00c896, #00ffb4);
+		      border-radius: 2px;
+		      transition: width 0.2s ease;
+		      position: relative;
+		    }
+		    .pl-fill::after {
+		      content: '';
+		      position: absolute;
+		      right: 0; top: 50%;
+		      transform: translateY(-50%);
+		      width: 8px; height: 8px;
+		      background: #00ffb4;
+		      border-radius: 50%;
+		      box-shadow: 0 0 8px #00ffb4;
+		    }
+		    .pl-status { color: rgba(255,255,255,0.25); font-size: 10px; text-align: right; }
+		  </style>
+		
+		  <div class="pl-inner">
+		    <div class="pl-icon"><div class="pl-dot"></div></div>
+		    <div class="pl-label">LOADING ASSETS</div>
+		    <div class="pl-bar-wrapper">
+		      <div class="pl-bar-header">
+		        <span class="pl-bar-title">PROGRESS</span>
+		        <span class="pl-percent" id="pl-percent">0%</span>
+		      </div>
+		      <div class="pl-track">
+		        <div class="pl-fill" id="pl-fill"></div>
+		      </div>
+		      <div class="pl-status" id="pl-status">0 / 0</div>
+		    </div>
+		  </div>
+		`;
+		document.body.appendChild(preloaderDiv);
+		
+		// ============================
+		// جمع مسارات الصور من JSON
+		// ============================
+		function getImagePaths(data) {
+		  var paths = [];
+		  var theme = data.theme || 'nature';
+		
+		  var tg = data.themeGraphics || {};
+		  var skipKeys = ['nature', 'digital'];
+		  Object.keys(tg).forEach(function(key) {
+		    if (skipKeys.indexOf(key) > -1) return;
+		    if (typeof tg[key] === 'string') {
+		      paths.push('pics/themes/' + theme + '/' + tg[key]);
+		    }
+		  });
+		
+		  (data.elements || []).forEach(function(el) {
+		    if (el.img) paths.push(el.img);
+		  });
+		
+		  return paths;
+		}
+		
+		// ============================
+		// تحميل الصور مع Progress
+		// ============================
+		function preloadImages(paths, onDone) {
+		  var total  = paths.length;
+		  var loaded = 0;
+		
+		  var fillEl    = document.getElementById('pl-fill');
+		  var percentEl = document.getElementById('pl-percent');
+		  var statusEl  = document.getElementById('pl-status');
+		
+		  if (statusEl) statusEl.textContent = '0 / ' + total;
+		
+		  if (total === 0) { onDone(); return; }
+		
+		  paths.forEach(function(src) {
+		    var img = new Image();
+		    img.onload = img.onerror = function() {
+		      loaded++;
+		      var pct = Math.round((loaded / total) * 100);
+		      if (fillEl)    fillEl.style.width      = pct + '%';
+		      if (percentEl) percentEl.textContent   = pct + '%';
+		      if (statusEl)  statusEl.textContent    = loaded + ' / ' + total;
+		      if (loaded === total) onDone();
+		    };
+		    img.src = src;
+		  });
+		}
+		
+		// ============================
+		// إخفاء الـ Preloader والمتابعة
+		// ============================
+		function hideAndPlay() {
+		  var pl = document.getElementById('custom-preloader');
+		  if (pl) {
+		    pl.style.transition = 'opacity 0.6s ease';
+		    pl.style.opacity    = '0';
+		    setTimeout(function() {
+		      if (pl.parentNode) pl.parentNode.removeChild(pl);
+		    }, 650);
+		  }
+		  _root.gotoAndStop("start");
+		}
+		
+		// ============================
+		// ابدأ — اقرأ JSON وحمّل
+		// ============================
+		fetch('data.json')
+		  .then(function(r) { return r.json(); })
+		  .then(function(data) {
+		    jsonData     = data;
+		    currentTheme = data.theme;
+		    var paths = getImagePaths(data);
+		    console.log('Preloader: images to load =', paths.length);
+		    preloadImages(paths, hideAndPlay);
+		  })
+		  .catch(function(err) {
+		    console.error('Preloader error:', err);
+		    hideAndPlay(); // لو حصل error متوقفش
+		  });
+	}
+	this.frame_1 = function() {
 		this.stop();
 		
 		createjs.Touch.enable(stage);
@@ -9514,7 +9718,7 @@ if (reversed == null) { reversed = false; }
 		loadImageIntoMC(root.gameTitle, "pics/themes/"+currentTheme+"/"+jsonData.themeGraphics.gameTitle);
 		loadImageIntoMC(root.bgImage01, "pics/themes/"+currentTheme+"/"+jsonData.themeGraphics.startFrame);
 	}
-	this.frame_1 = function() {
+	this.frame_2 = function() {
 		this.stop();
 		var root = this;
 		var currentStep = 0;
@@ -10494,7 +10698,7 @@ if (reversed == null) { reversed = false; }
 		  console.log("📊 Steps:", window.progressSteps);
 		}
 	}
-	this.frame_2 = function() {
+	this.frame_3 = function() {
 		this.stop();
 		
 		var root = this;
@@ -10657,7 +10861,7 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
 	// dummy_overly
 	this.close_overly = new lib.Symbol5();
@@ -10666,7 +10870,7 @@ if (reversed == null) { reversed = false; }
 	this.close_overly._off = true;
 	new cjs.ButtonHelper(this.close_overly, 0, 1, 2, false, new lib.Symbol5(), 3);
 
-	this.timeline.addTween(cjs.Tween.get(this.close_overly).wait(1).to({_off:false},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.close_overly).wait(2).to({_off:false},0).to({_off:true},1).wait(1));
 
 	// Layer_2
 	this.text_overly = new lib.Symbol42();
@@ -10674,7 +10878,7 @@ if (reversed == null) { reversed = false; }
 	this.text_overly.setTransform(897.5,651,1,1,0,0,0,287.5,112);
 	this.text_overly._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.text_overly).wait(1).to({_off:false},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text_overly).wait(2).to({_off:false},0).to({_off:true},1).wait(1));
 
 	// Layer_3
 	this.popup = new lib.Symbol3();
@@ -10682,7 +10886,7 @@ if (reversed == null) { reversed = false; }
 	this.popup.setTransform(903.25,651.2,1,1,0,0,0,345.1,181.1);
 	this.popup._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.popup).wait(1).to({_off:false},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.popup).wait(2).to({_off:false},0).to({_off:true},1).wait(1));
 
 	// overly
 	this.overly = new lib.Symbol4();
@@ -10690,7 +10894,7 @@ if (reversed == null) { reversed = false; }
 	this.overly.setTransform(839.1,600,0.9324,1,0,0,0,900,600);
 	this.overly._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.overly).wait(1).to({_off:false},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.overly).wait(2).to({_off:false},0).to({_off:true},1).wait(1));
 
 	// progressBar
 	this.bar = new lib.bar();
@@ -10698,7 +10902,7 @@ if (reversed == null) { reversed = false; }
 	this.bar.setTransform(858.5,235.6,0.9887,1,0,0,0,354.1,10);
 	this.bar._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.bar).wait(1).to({_off:false},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.bar).wait(2).to({_off:false},0).to({_off:true},1).wait(1));
 
 	// text
 	this.set_1 = new cjs.Text("", "22px 'Noto Sans Arabic'", "#FFFFFF");
@@ -10733,7 +10937,7 @@ if (reversed == null) { reversed = false; }
 	this.message_txt.parent = this;
 	this.message_txt.setTransform(874.15,910.25);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.message_txt},{t:this.title_txt},{t:this.set_2},{t:this.set_1}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.message_txt},{t:this.title_txt},{t:this.set_2},{t:this.set_1}]},2).to({state:[]},1).wait(1));
 
 	// feedbackbar
 	this.hint_bg = new lib.Symbol22();
@@ -10741,7 +10945,7 @@ if (reversed == null) { reversed = false; }
 	this.hint_bg.setTransform(889.6,922.4,1,1,0,0,0,585.2,44.9);
 	this.hint_bg._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.hint_bg).wait(1).to({_off:false},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.hint_bg).wait(2).to({_off:false},0).wait(2));
 
 	// drag_elements
 	this.drag8_box = new lib.Symbol1();
@@ -10776,7 +10980,7 @@ if (reversed == null) { reversed = false; }
 	this.drag1_box.name = "drag1_box";
 	this.drag1_box.setTransform(384.95,408.6,1,1,0,0,0,52,53.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.drag1_box},{t:this.drag2_box},{t:this.drag3_box},{t:this.drag4_box},{t:this.drag5_box},{t:this.drag6_box},{t:this.drag7_box},{t:this.drag8_box}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.drag1_box},{t:this.drag2_box},{t:this.drag3_box},{t:this.drag4_box},{t:this.drag5_box},{t:this.drag6_box},{t:this.drag7_box},{t:this.drag8_box}]},2).wait(2));
 
 	// drop_elements
 	this.set1_drop1 = new lib.Symbol7_1();
@@ -10811,7 +11015,7 @@ if (reversed == null) { reversed = false; }
 	this.set2_drop1.name = "set2_drop1";
 	this.set2_drop1.setTransform(299.45,786.85,1,1,0,0,0,55.5,81.8);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.set2_drop1},{t:this.set2_drop4},{t:this.set2_drop2},{t:this.set2_drop3},{t:this.set1_drop4},{t:this.set1_drop3},{t:this.set1_drop2},{t:this.set1_drop1}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.set2_drop1},{t:this.set2_drop4},{t:this.set2_drop2},{t:this.set2_drop3},{t:this.set1_drop4},{t:this.set1_drop3},{t:this.set1_drop2},{t:this.set1_drop1}]},2).to({state:[]},1).wait(1));
 
 	// contuine_btn
 	this.res_btn = new lib.Symbol50();
@@ -10819,7 +11023,7 @@ if (reversed == null) { reversed = false; }
 	this.res_btn.setTransform(1591.2,980.4,1,1,0,0,0,73.6,31.9);
 	this.res_btn._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.res_btn).wait(1).to({_off:false},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.res_btn).wait(2).to({_off:false},0).to({_off:true},1).wait(1));
 
 	// side_btns
 	this.infoImage = new lib.Symbol57();
@@ -10830,7 +11034,7 @@ if (reversed == null) { reversed = false; }
 	this.mute.name = "mute";
 	this.mute.setTransform(186.05,309.25,1,1,0,0,0,35,35);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mute},{t:this.infoImage}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.mute},{t:this.infoImage}]},2).to({state:[]},1).wait(1));
 
 	// side_placeholder
 	this.music_btn = new lib.Symbol9();
@@ -10843,7 +11047,7 @@ if (reversed == null) { reversed = false; }
 	this.show_overly.setTransform(186.05,389.75,1,1,0,0,0,35,35);
 	new cjs.ButtonHelper(this.show_overly, 0, 1, 2, false, new lib.Symbol6(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.show_overly},{t:this.music_btn}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.show_overly},{t:this.music_btn}]},2).to({state:[]},1).wait(1));
 
 	// progressbar_r
 	this.pBar = new lib.Symbol17();
@@ -10851,14 +11055,14 @@ if (reversed == null) { reversed = false; }
 	this.pBar.setTransform(949.45,580.9,0.998,1,0,0,0,266.9,8.3);
 	this.pBar._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.pBar).wait(2).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.pBar).wait(3).to({_off:false},0).wait(1));
 
 	// animation
 	this.instance = new lib.Symbol4copy();
 	this.instance.setTransform(902,444.65,1,1,0,0,0,85.4,43.6);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(2).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
 
 	// result
 	this.res_title = new cjs.Text("", "32px 'Noto Sans Arabic SemiBold'");
@@ -10885,7 +11089,7 @@ if (reversed == null) { reversed = false; }
 	this.result_txt.parent = this;
 	this.result_txt.setTransform(911.65,634.45);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.result_txt},{t:this.final_score},{t:this.res_title}]},2).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.result_txt},{t:this.final_score},{t:this.res_title}]},3).wait(1));
 
 	// dummy_buttons
 	this.start_btn = new lib.Symbol16();
@@ -10898,14 +11102,15 @@ if (reversed == null) { reversed = false; }
 	this.retake_btn.setTransform(910.4,806,1,1,0,0,0,52.8,40);
 	new cjs.ButtonHelper(this.retake_btn, 0, 1, 2, false, new lib.Symbol16(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.start_btn}]}).to({state:[]},1).to({state:[{t:this.retake_btn}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.start_btn}]},1).to({state:[]},1).to({state:[{t:this.retake_btn}]},1).wait(1));
 
 	// game_title
 	this.gameTitle = new lib.Symbol34();
 	this.gameTitle.name = "gameTitle";
 	this.gameTitle.setTransform(907,518,1,1,0,0,0,316,78);
+	this.gameTitle._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.gameTitle).to({_off:true},1).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.gameTitle).wait(1).to({_off:false},0).to({_off:true},1).wait(2));
 
 	// retake_btn
 	this.restart_btn = new lib.Symbol66();
@@ -10913,7 +11118,7 @@ if (reversed == null) { reversed = false; }
 	this.restart_btn.setTransform(908.1,790.65,1,1,0,0,0,35,35);
 	this.restart_btn._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.restart_btn).wait(2).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.restart_btn).wait(3).to({_off:false},0).wait(1));
 
 	// flash0_ai
 	this.bgImage01 = new lib.Symbol32();
@@ -10930,13 +11135,13 @@ if (reversed == null) { reversed = false; }
 
 	this.bgImage02 = new lib.Symbol12();
 	this.bgImage02.name = "bgImage02";
-	this.bgImage02.setTransform(899.95,599.95,0.9989,0.9841,0,0,0,901,609.6);
+	this.bgImage02.setTransform(901,609.6,1,1,0,0,0,901,609.6);
 
 	this.resultsFrame = new lib.Symbol31();
 	this.resultsFrame.name = "resultsFrame";
 	this.resultsFrame.setTransform(899.95,606.5,1,1,0,0,0,899,606.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.bgImage01}]}).to({state:[{t:this.bgImage02},{t:this.bg_set1},{t:this.bg_set2}]},1).to({state:[{t:this.resultsFrame}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.bgImage01}]},1).to({state:[{t:this.bgImage02},{t:this.bg_set1},{t:this.bg_set2}]},1).to({state:[{t:this.resultsFrame}]},1).wait(1));
 
 	// stageBackground
 	this.shape = new cjs.Shape();
@@ -10947,12 +11152,12 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#FFFFFF").s().p("EiOLBfUMAAAi+nMEcXAAAMAAAC+ng");
 	this.shape_1.setTransform(900,600);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(3));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(4));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(889,589,924.4000000000001,622);
+p.nominalBounds = new cjs.Rectangle(889,589,922,622);
 // library properties:
 lib.properties = {
 	id: 'A3AEFBB9882AC04B82D2EC07A0D9EEBE',
@@ -10962,9 +11167,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_40.png?1773164059173", id:"CachedBmp_40"},
-		{src:"images/CachedBmp_39.png?1773164059173", id:"CachedBmp_39"},
-		{src:"images/index_atlas_1.png?1773164058817", id:"index_atlas_1"}
+		{src:"images/CachedBmp_54.png?1773167319454", id:"CachedBmp_54"},
+		{src:"images/CachedBmp_53.png?1773167319454", id:"CachedBmp_53"},
+		{src:"images/index_atlas_1.png?1773167319147", id:"index_atlas_1"}
 	],
 	preloads: []
 };
