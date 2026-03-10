@@ -1,0 +1,230 @@
+{
+  "language": "AR",
+  "theme": "digital",
+  "background": "pics/background-game.png",
+
+  "themeGraphics": {
+    "gameTitle": "gameTitle.png",
+    "startFrame": "startFrame.jpg",
+    "playGameFrame": "playGameFrame.jpg",
+    "textOverly": "textOverly.png",
+    "bgSet1": "bgSet1.png",
+    "bgSet2": "bgSet2.png",
+    "drag": "drag.png",
+    "target": "target.png",
+    "continueBtn": "continueBtn.png",
+    "resultsFrame": "resultsFrame.jpg",
+    "instructionsOverlay": "instructionsOverlay.png",
+
+    "green": "green.png",
+    "yellow": "yellow.png",
+    "red": "red.png",
+    "infoImage": "infoImage.png",
+    "soundOn": "soundOn.png",
+    "soundOff": "soundOff.png",
+    "retakeBtn": "retake.png",
+
+    "nature": {
+      "font": "'Noto Sans Arabic', sans-serif"
+    },
+    "digital": {
+      "font": "Arial, Helvetica, sans-serif"
+    }
+  },
+  "question": {
+    "text": {
+      "AR": "صنف المواد التالية الى مواد مغناطيسية ومواد غير مغناطيسية",
+      "EN": "Classify the following materials into magnetic and non-magnetic materials."
+    }
+  },
+  "setsLabel": {
+    "set_1": {
+      "AR": "مواد مغناطيسية",
+      "EN": "magnetic materials"
+    },
+    "set_2": {
+      "AR": "مواد غير مغناطيسية",
+      "EN": "non magnetic materials"
+    }
+  },
+  "elements": [
+    {
+      "id": "element_1",
+      "img": "pics/iron.png",
+      "label": {
+        "AR": "حديد",
+        "EN": "Iron"
+      },
+      "hint": {
+        "AR": "الحديد مادة تنجذب إلى المغناطيس بقوة",
+        "EN": "Iron is a material that is strongly attracted to magnets."
+      },
+      "system_hint": {
+        "AR": "يُعد الحديد مادة مغناطيسية",
+        "EN": "Iron is a magnetic material."
+      },
+      "answer": "set_1"
+    },
+    {
+      "id": "element_2",
+      "img": "pics/aluminum.png",
+      "label": {
+        "AR": "ألومنيوم",
+        "EN": "Aluminum"
+      },
+      "hint": {
+        "AR": "الألومنيوم لا ينجذب  إلى المغناطيس",
+        "EN": "Aluminum is not attracted to magnets."
+      },
+      "system_hint": {
+        "AR": "الألومنيوم مادة غير مغناطيسية",
+        "EN": "Aluminum is a non-magnetic material."
+      },
+      "answer": "set_2"
+    },
+    {
+      "id": "element_3",
+      "img": "pics/gold.png",
+      "label": {
+        "AR": "ذهب",
+        "EN": "Gold"
+      },
+      "hint": {
+        "AR": "الذهب لا ينجذب إلى المغناطيس",
+        "EN": "Gold is not attracted to a magnet."
+      },
+      "system_hint": {
+        "AR": "الذهب مادة غير مغناطيسية",
+        "EN": "Gold is a non-magnetic material."
+      },
+      "answer": "set_2"
+    },
+    {
+      "id": "element_4",
+      "label": {
+        "AR": "نيكل",
+        "EN": "Nickel"
+      },
+      "img": "pics/nickel.png",
+      "hint": {
+        "AR": "النيكل لا ينجذب إلى المغناطيس",
+        "EN": "Nickel is not attracted to magnets."
+      },
+      "system_hint": {
+        "AR": "النيكل مادة مغناطيسية",
+        "EN": "Nickel is a magnetic material."
+      },
+      "answer": "set_1"
+    },
+    {
+      "id": "element_5",
+      "label": {
+        "AR": "نحاس",
+        "EN": "Copper"
+      },
+      "img": "pics/copper.png",
+      "hint": {
+        "AR": "النحاس لا ينجذب إلى المغناطيس",
+        "EN": "Copper is not attracted to a magnet."
+      },
+      "system_hint": {
+        "AR": "النحاس مادة غير مغناطيسية",
+        "EN": "Copper is a non-magnetic material."
+      },
+      "answer": "set_2"
+    },
+    {
+      "id": "element_6",
+      "label": {
+        "AR": "كوبلت",
+        "EN": "Cobalt"
+      },
+      "img": "pics/cobalt.png",
+      "hint": {
+        "AR": "الكوبلت مادة مغناطيسية",
+        "EN": "Cobalt is a magnetic material."
+      },
+      "system_hint": {
+        "AR": " يُعد الكوبلت مادة مغناطيسية",
+        "EN": "Cobalt is a magnetic material."
+      },
+      "answer": "set_1"
+    },
+    {
+      "id": "element_7",
+      "label": {
+        "AR": "فضة",
+        "EN": "Silver"
+      },
+      "img": "pics/silver.png",
+      "hint": {
+        "AR": "الفضة لا تنجذب إلى المغناطيس",
+        "EN": "Silver is not attracted to magnets."
+      },
+      "system_hint": {
+        "AR": "تُعد الفضة مادة غير مغناطيسية",
+        "EN": "Silver is a non-magnetic material."
+      },
+      "answer": "set_2"
+    }
+  ],
+  "note": {
+    "AR": "توضيح",
+    "EN": "Note:"
+  },
+  "continue": {
+    "AR": "متابعة",
+    "EN": "Continue"
+  },
+  "score": {
+    "AR": "النتيجة",
+    "EN": "Score"
+  },
+  "progress": {
+    "AR": "التقدم",
+    "EN": "Progress"
+  },
+  "retake": {
+    "AR": "العب مرة أخرى ",
+    "EN": "Retake Quiz"
+  },
+  "feedback_right": {
+    "AR": ["أحسنت", "ممتاز", "إجابة صحيحة"],
+    "EN": ["Well done", "Excellent!", "Correct answer"]
+  },
+  "feedback_wrong": {
+    "AR": ["حاول مرة أخرى", "إجابة غير صحيحة"],
+    "EN": ["Try again", "Wrong answer"]
+  },
+  "results": {
+    "AR": "النتيجة",
+    "EN": "Results",
+
+    "great": {
+      "title": {
+        "AR": "ممتاز",
+        "EN": "Excellent"
+      },
+      "AR": "أحسنت! أداؤك ممتاز ويُظهر فهمًا جيِّدًا لمحتوى الدرس",
+      "EN": "Excellent! Your performance is outstanding and shows a good understanding of the lesson content."
+    },
+
+    "goodjob": {
+      "title": {
+        "AR": "جيد جداً",
+        "EN": "Very Good"
+      },
+      "AR": "أداؤك جيّد، و فهمت جزءًا كبيرًا من الدرس. واصل المحاولة لتحسين نتيجتك",
+      "EN": "Good job! You have a good understanding of the lesson. Keep trying to improve your score."
+    },
+
+    "fair": {
+      "title": {
+        "AR": "حاول مرة أخرى",
+        "EN": "Try Again"
+      },
+      "AR": "راجع الدرس وجرب من جديد، مع الممارسة سيتحسّن أداؤك",
+      "EN": "Nice try, review the lesson and try again. With practice, your performance will improve."
+    }
+  }
+}
